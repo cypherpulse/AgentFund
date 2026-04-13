@@ -1,0 +1,22 @@
+{
+  "name": "Agent Fund",
+  "short_name": "AgentFund",
+  "description": "The decentralized terminal for funding autonomous AI agents on Celo.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#03140e",
+  "theme_color": "#1cff90",
+  "icons": [
+    {
+      "src": "/logo-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
