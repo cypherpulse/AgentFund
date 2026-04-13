@@ -38,7 +38,11 @@ const Index = () => {
         <HelpSection />
       </main>
       <footer className="border-t border-border/30 py-8 text-center font-mono text-xs text-muted-foreground">
-        AGENT FUND © {new Date().getFullYear()} — Built on Celo
+        <div className="mb-2 flex items-center justify-center gap-2">
+          <img src="/logo-mark.svg" alt="Agent Fund logo" className="h-5 w-5" />
+          <span className="text-primary/80">AGENT FUND</span>
+        </div>
+        <div>© {new Date().getFullYear()} — Built on Celo</div>
       </footer>
     </div>
   );
