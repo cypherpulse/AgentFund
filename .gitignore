@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 *.sh
 *.ps1
+
+*.env
