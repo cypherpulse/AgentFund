@@ -16,6 +16,11 @@ export function HeroSection({ onOpenTerminal }: { onOpenTerminal: () => void }) 
 
   return (
     <section className="relative flex flex-col items-center justify-center px-4 pt-32 pb-20 text-center">
+      <div className="mb-6 flex items-center gap-3 rounded-xl border border-primary/20 bg-secondary/40 px-4 py-2">
+        <img src="/logo-mark.svg" alt="Agent Fund logo" className="h-8 w-8" />
+        <img src="/logo-wordmark.svg" alt="Agent Fund" className="h-7 w-auto" />
+      </div>
+
       {/* Status indicator */}
       <div className="mb-8 flex items-center gap-2 rounded-full border border-border bg-secondary px-4 py-1.5 text-xs font-mono">
         <span className="status-dot h-2 w-2 rounded-full bg-primary" />
